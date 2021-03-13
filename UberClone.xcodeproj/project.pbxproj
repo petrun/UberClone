@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,35 @@
 		A15358C725F9907B00356BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15358C625F9907B00356BA4 /* Assets.xcassets */; };
 		A15358CA25F9907B00356BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15358C825F9907B00356BA4 /* LaunchScreen.storyboard */; };
 		A15358D925F9928500356BA4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15358D825F9928500356BA4 /* LoginController.swift */; };
+		A16CA19D25FAEA8800FA71CA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CA19C25FAEA8800FA71CA /* UIColor.swift */; };
+		A16CA1A025FAF40100FA71CA /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CA19F25FAF40100FA71CA /* SignUpController.swift */; };
+		A1B9F89A25FC2A7A00BB70AA /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F89925FC2A7A00BB70AA /* SubmitButton.swift */; };
+		A1B9F89D25FC2EF800BB70AA /* AttributedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F89C25FC2EF800BB70AA /* AttributedButton.swift */; };
+		A1B9F8A325FC336F00BB70AA /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8A225FC336F00BB70AA /* TitleLabel.swift */; };
+		A1B9F8A825FC3A5000BB70AA /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8A725FC3A5000BB70AA /* InputContainerView.swift */; };
+		A1B9F8AC25FC3BA700BB70AA /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8AB25FC3BA700BB70AA /* FormTextField.swift */; };
+		A1B9F8B025FC3CA900BB70AA /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8AF25FC3CA900BB70AA /* UI.swift */; };
+		BD3B757F2521BEB902A04939 /* Pods_UberClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855BA937361C33622B7F3E62 /* Pods_UberClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		855BA937361C33622B7F3E62 /* Pods_UberClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF96238D6D5D0C259A688E0 /* Pods-UberClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.debug.xcconfig"; path = "Target Support Files/Pods-UberClone/Pods-UberClone.debug.xcconfig"; sourceTree = "<group>"; };
 		A15358BA25F9907900356BA4 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15358BD25F9907900356BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A15358C625F9907B00356BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15358C925F9907B00356BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A15358CB25F9907B00356BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15358D825F9928500356BA4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A16CA19C25FAEA8800FA71CA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A16CA19F25FAF40100FA71CA /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		A1B9F89925FC2A7A00BB70AA /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		A1B9F89C25FC2EF800BB70AA /* AttributedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedButton.swift; sourceTree = "<group>"; };
+		A1B9F8A225FC336F00BB70AA /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		A1B9F8A725FC3A5000BB70AA /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		A1B9F8AB25FC3BA700BB70AA /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		A1B9F8AF25FC3CA900BB70AA /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		C7439622E96C755461D693E3 /* Pods-UberClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.release.xcconfig"; path = "Target Support Files/Pods-UberClone/Pods-UberClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3B757F2521BEB902A04939 /* Pods_UberClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07CAF4D37B96216BF81A899F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				855BA937361C33622B7F3E62 /* Pods_UberClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A15358B125F9907900356BA4 = {
 			isa = PBXGroup;
 			children = (
 				A15358BC25F9907900356BA4 /* UberClone */,
 				A15358BB25F9907900356BA4 /* Products */,
+				EC1E82880F4751E476C04800 /* Pods */,
+				07CAF4D37B96216BF81A899F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +106,8 @@
 		A15358D425F9915100356BA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A1B9F89325FC288500BB70AA /* blocks */,
+				A1B9F8AF25FC3CA900BB70AA /* UI.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,6 +115,7 @@
 		A15358D525F9917600356BA4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A15358E225F998A600356BA4 /* Extensions */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -97,8 +131,62 @@
 			isa = PBXGroup;
 			children = (
 				A15358D825F9928500356BA4 /* LoginController.swift */,
+				A16CA19F25FAF40100FA71CA /* SignUpController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A15358E225F998A600356BA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A16CA19C25FAEA8800FA71CA /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1B9F89325FC288500BB70AA /* blocks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F8A625FC3A2600BB70AA /* inputs */,
+				A1B9F89F25FC334500BB70AA /* buttons */,
+				A1B9F8A125FC334E00BB70AA /* labels */,
+			);
+			path = blocks;
+			sourceTree = "<group>";
+		};
+		A1B9F89F25FC334500BB70AA /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F89925FC2A7A00BB70AA /* SubmitButton.swift */,
+				A1B9F89C25FC2EF800BB70AA /* AttributedButton.swift */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		A1B9F8A125FC334E00BB70AA /* labels */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F8A225FC336F00BB70AA /* TitleLabel.swift */,
+			);
+			path = labels;
+			sourceTree = "<group>";
+		};
+		A1B9F8A625FC3A2600BB70AA /* inputs */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F8A725FC3A5000BB70AA /* InputContainerView.swift */,
+				A1B9F8AB25FC3BA700BB70AA /* FormTextField.swift */,
+			);
+			path = inputs;
+			sourceTree = "<group>";
+		};
+		EC1E82880F4751E476C04800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AF96238D6D5D0C259A688E0 /* Pods-UberClone.debug.xcconfig */,
+				C7439622E96C755461D693E3 /* Pods-UberClone.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A15358CE25F9907B00356BA4 /* Build configuration list for PBXNativeTarget "UberClone" */;
 			buildPhases = (
+				F53F0185DBB0E2CFD163F8CC /* [CP] Check Pods Manifest.lock */,
 				A15358B625F9907900356BA4 /* Sources */,
 				A15358B725F9907900356BA4 /* Frameworks */,
 				A15358B825F9907900356BA4 /* Resources */,
+				EE1F9E8098083454BC9912A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,13 +255,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EE1F9E8098083454BC9912A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberClone/Pods-UberClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberClone/Pods-UberClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberClone/Pods-UberClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53F0185DBB0E2CFD163F8CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A15358B625F9907900356BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A15358D925F9928500356BA4 /* LoginController.swift in Sources */,
+				A1B9F8AC25FC3BA700BB70AA /* FormTextField.swift in Sources */,
 				A15358BE25F9907900356BA4 /* AppDelegate.swift in Sources */,
+				A1B9F8B025FC3CA900BB70AA /* UI.swift in Sources */,
+				A1B9F89A25FC2A7A00BB70AA /* SubmitButton.swift in Sources */,
+				A1B9F89D25FC2EF800BB70AA /* AttributedButton.swift in Sources */,
+				A1B9F8A325FC336F00BB70AA /* TitleLabel.swift in Sources */,
+				A16CA19D25FAEA8800FA71CA /* UIColor.swift in Sources */,
+				A16CA1A025FAF40100FA71CA /* SignUpController.swift in Sources */,
+				A1B9F8A825FC3A5000BB70AA /* InputContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +447,7 @@
 		};
 		A15358CF25F9907B00356BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF96238D6D5D0C259A688E0 /* Pods-UberClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,6 +468,7 @@
 		};
 		A15358D025F9907B00356BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7439622E96C755461D693E3 /* Pods-UberClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
