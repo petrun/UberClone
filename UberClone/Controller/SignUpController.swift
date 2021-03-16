@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpController: UIViewController {
 
@@ -56,6 +57,7 @@ class SignUpController: UIViewController {
     private let signUpButton: UIButton = {
         let button = SubmitButton()
         button.setTitle("Sign Up", for: .normal)
+        button.addTarget(self, action: #selector(handleSignUp), for: .touchUpInside)
 
         return button
     }()
@@ -81,10 +83,43 @@ class SignUpController: UIViewController {
 
     // MARK: - Selectors
 
+    @objc func handleSignUp() {
+        guard let email = emailTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        guard let fullName = fullNameTextField.text else { return }
+        let accountType = accountTypeSegmentedControl.selectedSegmentIndex
+
+        Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
+            if let error = error {
+                print("Failed to create user: \(error.localizedDescription)")
+                return
+            }
+
+            guard let uid = result?.user.uid else { return }
+
+            let userValues: [String: Any] = [
+                "email": email,
+                "fullName": fullName,
+                "accountType": accountType,
+            ]
+
+            Database.database().reference().child("users").child(uid).updateChildValues(userValues) { [weak self] (error, _) in
+                if let error = error {
+                    print("Failed to update user values: \(error.localizedDescription)")
+                    return
+                }
+                print("Success user values updated")
+                
+                self?.dismiss(animated: true)
+            }
+
+            print("UID: \(uid)")
+        }
+    }
+
     @objc func handleReturnToLogin() {
         navigationController?.popViewController(animated: true)
     }
-
 
     // MARK: - Helper functions
 

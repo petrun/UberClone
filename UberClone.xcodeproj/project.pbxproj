@@ -11,6 +11,7 @@
 		A15358C725F9907B00356BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15358C625F9907B00356BA4 /* Assets.xcassets */; };
 		A15358CA25F9907B00356BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15358C825F9907B00356BA4 /* LaunchScreen.storyboard */; };
 		A15358D925F9928500356BA4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15358D825F9928500356BA4 /* LoginController.swift */; };
+		A15EABD825FC6737009D8AD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A15EABD725FC6737009D8AD2 /* GoogleService-Info.plist */; };
 		A16CA19D25FAEA8800FA71CA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CA19C25FAEA8800FA71CA /* UIColor.swift */; };
 		A16CA1A025FAF40100FA71CA /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CA19F25FAF40100FA71CA /* SignUpController.swift */; };
 		A1B9F89A25FC2A7A00BB70AA /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F89925FC2A7A00BB70AA /* SubmitButton.swift */; };
@@ -19,6 +20,8 @@
 		A1B9F8A825FC3A5000BB70AA /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8A725FC3A5000BB70AA /* InputContainerView.swift */; };
 		A1B9F8AC25FC3BA700BB70AA /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8AB25FC3BA700BB70AA /* FormTextField.swift */; };
 		A1B9F8B025FC3CA900BB70AA /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9F8AF25FC3CA900BB70AA /* UI.swift */; };
+		A1F1C1D025FE4C2A009BF0DA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1C1CF25FE4C2A009BF0DA /* HomeController.swift */; };
+		A1F1C1D325FE4D87009BF0DA /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1C1D225FE4D87009BF0DA /* Debug.swift */; };
 		BD3B757F2521BEB902A04939 /* Pods_UberClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855BA937361C33622B7F3E62 /* Pods_UberClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,7 @@
 		A15358C925F9907B00356BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A15358CB25F9907B00356BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15358D825F9928500356BA4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A15EABD725FC6737009D8AD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A16CA19C25FAEA8800FA71CA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		A16CA19F25FAF40100FA71CA /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		A1B9F89925FC2A7A00BB70AA /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		A1B9F8A725FC3A5000BB70AA /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		A1B9F8AB25FC3BA700BB70AA /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
 		A1B9F8AF25FC3CA900BB70AA /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		A1F1C1CF25FE4C2A009BF0DA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A1F1C1D225FE4D87009BF0DA /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		C7439622E96C755461D693E3 /* Pods-UberClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberClone.release.xcconfig"; path = "Target Support Files/Pods-UberClone/Pods-UberClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +98,7 @@
 				A15358C625F9907B00356BA4 /* Assets.xcassets */,
 				A15358C825F9907B00356BA4 /* LaunchScreen.storyboard */,
 				A15358CB25F9907B00356BA4 /* Info.plist */,
+				A15EABD725FC6737009D8AD2 /* GoogleService-Info.plist */,
 			);
 			path = UberClone;
 			sourceTree = "<group>";
@@ -116,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A15358E225F998A600356BA4 /* Extensions */,
+				A1F1C1D225FE4D87009BF0DA /* Debug.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			children = (
 				A15358D825F9928500356BA4 /* LoginController.swift */,
 				A16CA19F25FAF40100FA71CA /* SignUpController.swift */,
+				A1F1C1CF25FE4C2A009BF0DA /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,6 +259,7 @@
 			files = (
 				A15358CA25F9907B00356BA4 /* LaunchScreen.storyboard in Resources */,
 				A15358C725F9907B00356BA4 /* Assets.xcassets in Resources */,
+				A15EABD825FC6737009D8AD2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15358D925F9928500356BA4 /* LoginController.swift in Sources */,
+				A1F1C1D325FE4D87009BF0DA /* Debug.swift in Sources */,
 				A1B9F8AC25FC3BA700BB70AA /* FormTextField.swift in Sources */,
+				A1F1C1D025FE4C2A009BF0DA /* HomeController.swift in Sources */,
 				A15358BE25F9907900356BA4 /* AppDelegate.swift in Sources */,
 				A1B9F8B025FC3CA900BB70AA /* UI.swift in Sources */,
 				A1B9F89A25FC2A7A00BB70AA /* SubmitButton.swift in Sources */,
